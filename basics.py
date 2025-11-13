@@ -1,7 +1,5 @@
 import discord
 import requests
-from discord.types import embed
-
 from embedsender import sendembed
 intents = discord.Intents.default()
 intents.message_content = True
